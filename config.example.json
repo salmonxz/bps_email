@@ -1,0 +1,11 @@
+{
+  "smtp_host": "smtp-relay.brevo.com",
+  "smtp_port": "587",
+  "smtp_username": "your_smtp_username_here",
+  "sender_email": "your_email@domain.com",
+  "smtp_pass": "your_smtp_password_or_token_here",
+  "email_delay": 2.5,
+  "smtp_timeout": 45,
+  "email_subject": "[BPS RI] Penyampaian Dokumen Naskah Publikasi Statistik - BPS Provinsi {provinsi} ({kode})",
+  "html_template_path": ""
+}

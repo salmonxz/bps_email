@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build
+build/
+dist/
+*.manifest
+
+# Database & local runtime logs
+*.db
+*.sqlite3
+
+# Configuration & Secrets (contains sensitive SMTP credentials / passwords)
+config.json
+.env
+
+# Excel data files (mengabaikan seluruh data excel agar privasi data BPS terjaga)
+*.xlsx
+*.xls
+~$*.xlsx
+~$*.xls
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / Pytest
+.pytest_cache/
